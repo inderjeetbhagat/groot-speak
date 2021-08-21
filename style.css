@@ -3,18 +3,16 @@
     margin: 0 auto;
     padding: 0;
     font-family: poppins;
-    color: white;
+  
    
 }
-.parent-container{
-    
-}
+
 .container{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: #242B2E ;
+    background-color: #ffffff ;
     
 }
 textarea{
@@ -23,31 +21,35 @@ textarea{
     display: block;
     margin: 1rem;
     padding: 1rem;
-    border: 1px solid rgb(37, 37, 37);
-    color: #242B2E;
+    border: 3px solid rgb(37, 37, 37);
+    color: #CAD5E2;
     font-size: 1rem;
+    background-color: #5A20CB;
 }
 #output{
-    border: 1px solid rgb(37, 37, 37);
+    border: 3px solid rgb(37, 37, 37);
     height: 10vh;
     display: block;
     margin: 1rem;
     padding: 1rem;
     width: 90%;
-    background-color: white;
-    color: #242B2E;
+    background-color: #5A20CB;
+    color: #CAD5E2;
 }
 .header{
-    background: rgb(254,234,39);
+    background: #5A20CB;
     width: 100%;
     text-align: center;
     height: 10vh;
+    color: #CAD5E2;
+    font-weight: 600;
 
 }
 .heading{
     margin-top: 15px;
     padding-top: 0;
-    color: black;
+
+    
     
     
 }
@@ -55,6 +57,12 @@ textarea{
     width: 50%;
     padding: 0 4rem 4rem 4rem;
     
+}
+.about h1{
+    color: #5A20CB;
+}
+.about p{
+    color: black ;
 }
 .paraller-container{
     display: flex;
@@ -70,16 +78,18 @@ textarea{
     display: inline-block;
     padding: 0.5rem 1.2rem;
     margin-left: 1rem ;
-    background-color: yellow;
+    background-color: black;
     font-weight: bold;
     margin-top: 1rem;
-    color: #242B2E;
+    color: #CAD5E2;
 }
 .output-text{
     font-size: large;
     margin-left: 1rem ;
     margin-top: 1rem;
+    color: black ;
 }
+
 #image{
     height: 20rem
 }
