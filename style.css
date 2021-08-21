@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: poppins;
+    color: white;
+   
+}
+.parent-container{
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #242B2E ;
+    
+}
+textarea{
+    width: 90%;
+    height: 10vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid rgb(37, 37, 37);
+    color: #242B2E;
+    font-size: 1rem;
+}
+#output{
+    border: 1px solid rgb(37, 37, 37);
+    height: 10vh;
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    width: 90%;
+    background-color: white;
+    color: #242B2E;
+}
+.header{
+    background: rgb(254,234,39);
+    width: 100%;
+    text-align: center;
+    height: 10vh;
+
+}
+.heading{
+    margin-top: 15px;
+    padding-top: 0;
+    color: black;
+    
+    
+}
+.about-section{
+    width: 50%;
+    padding: 0 4rem 4rem 4rem;
+    
+}
+.paraller-container{
+    display: flex;
+    align-items: center;
+    padding: 0 4rem;
+    height: 90vh;
+    
+}
+.translator{
+    width: 50%;
+}
+#btn-translate{
+    display: inline-block;
+    padding: 0.5rem 1.2rem;
+    margin-left: 1rem ;
+    background-color: yellow;
+    font-weight: bold;
+    margin-top: 1rem;
+    color: #242B2E;
+}
+.output-text{
+    font-size: large;
+    margin-left: 1rem ;
+    margin-top: 1rem;
+}
+#image{
+    height: 20rem
+}
